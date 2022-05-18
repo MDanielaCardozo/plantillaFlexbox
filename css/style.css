@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    color: aliceblue;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    background: #181621;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    justify-content: end;
+}
+
+.enlaces {
+    justify-content: flex-end;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    background: rgb(43, 42, 42);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h3 {
+    margin: 15px 0px;
+}
+
+/* practica de flexbox */
+
+.contenedorPadre {
+    background: lightskyblue;
+    display: flex;
+}
+
+.caja {
+    border: 1px solid grey;
+    width: 350px;
+    text-align: center;
+    padding: 5px 0px;
+    color: white;
+}
+
+.caja1 {
+    background: #6c69ba;
+}
+
+.caja2 {
+    background: #5a5798;
+}
+
+.caja3 {
+    background: #494678;
+}
+
+.caja4 {
+    background: #383559;
+}
+
+.caja5 {
+    background: #27253c;
+}
+
+.caja6 {
+    background: #181621;
+}
+
+.caja7 {
+    background: #000000;
+}
+
+.flexRowreverse {
+    flex-direction: row-reverse;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.flexColumnReverse {
+    flex-direction: column-reverse;
+}
+
+.contenedorFlexWrap {
+    flex-wrap: wrap;
+}
+
+.contenedorAlto {
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.elementosFinal {
+    justify-content: flex-end;
+}
+
+.elementosCentro {
+    justify-content: center;
+}
+
+.espacioEntre {
+    justify-content: space-between;
+}
+
+.espacioAlrededor {
+    justify-content: space-around;
+}
+
+.espacioAlrededorb {
+    justify-content: space-evenly;
+}
+
+.elementosAlturasArriba {
+
+}
+
+.cajaA {
+    height: 50px;
+    background: #6c69ba;
+}
+
+.cajaB {
+    height: 90px;
+    background: #5a5798;
+}
+
+.cajaC {
+    height: 70px;
+    background: #494678;
+}
+
+.cajaD {
+    height: 20px;
+    background: #383559;
+}
+
+.cajaE {
+    height: 60px;
+    background: #181621;
+}
+
+.elementosAlturasAbajo {
+    align-items: flex-end;
+}
+
+.elementosAlturasCentro {
+    align-items: center;
+}
+
+.elementosArriba {
+    align-items: flex-start;
+}
+
+
+
+.elementosEspacio {
+    justify-content: center;
+    align-content: space-around;
+}
+
+.cajaCinco {
+    order: 6;
+    background: #27253c;
+}
+
+.cajaDos {
+    order: 7;
+    background: #5a5798;
+}
